@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Recommendations</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Spectral+SC|Russo+One" rel="stylesheet">
+</head>
+<body>
+    <main>
+       
+        <header class="search">
+
+            <div id="back-button"> <img id="bb-img" data-src="./img/caret.svg" class="iconic iconic-md" data-direction="left" alt="Back Button" title="Back"/></div>
+            
+            <div id="search-button"><img id="sb-img" class="iconic iconic-md" data-src="./img/magnifying-glass.svg" alt="Search" title="Search"/></div>
+            
+            <input type="text" id="search-input" placeholder="search" />
+            
+        </header>
+        
+        <div class="page active" id="search-results">          
+            <section class="title">
+            <h1>Movie Recommendations</h1>
+                <div class="attribution" id="attribution">
+                    <img src="./img/powered-by-rectangle-blue.svg" alt="The Movie DB" />
+                </div>
+            </section>         
+            <section class="content"></section>
+        </div>
+                <!--Your search returned X results-->
+         <div class="page" id="recommend-results"> 
+            <section class="title"></section>         
+            <section class="content">
+                <div class="movie">
+                <img class="poster" alt="movie poster"/>
+                </div>
+            </section>
+        </div>
+
+    </main>
+    
+   <div class="loading not">
+        <img class="iconic" data-src="./img/loop-circular.svg" title="loop circular"/>
+    </div>
+    
+    <script src="./js/iconic.min.js"></script>
+    <script src="./js/key.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
