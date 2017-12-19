@@ -1,8 +1,6 @@
 let app = {
     URL: 'https://api.themoviedb.org/3/',
     INPUT: null,
-    configData: null,
-    baseImageURL: null,
     init: function () {
         //fetch the config info
         app.INPUT = document.getElementById('search-input');
