@@ -16,7 +16,7 @@ html{
     color: #888;
 }
 
-h1{ font-family: 'Spectral SC', serif;
+h1{ font-family: 'Spectral SC', Palatino, serif;
     color: floralwhite;
     font-weight: bold;
     font-size: 2.5rem;
@@ -109,7 +109,7 @@ li{}
     clear:both;
     background-color: #222;
     color: mediumslateblue;
-    font-family: 'Spectral SC', serif;
+    font-family: 'Spectral SC', Palatino, serif;
     font-size: 1.5rem;
     border-bottom: 3px solid mediumpurple;
     box-shadow: 6px 6px 12px rebeccapurple;
